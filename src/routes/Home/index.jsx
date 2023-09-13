@@ -22,7 +22,19 @@ export default function Janos() {
             </p>
           </div>
   
-          
+          <div>
+            <h2 className="titulo-janos">Descrição do Projeto</h2>
+            <p className="texto-janos">
+              Após o acionamento da central para a tentativa do seguro e um
+              pré-cadastro realizado pelo cliente, será encaminhado um link(de
+              modo temporário) que irá direcionar o cliente para uma página onde
+              ele terá que tirar um quantidade de fotos pré definidas e será
+              indicado os locais da bicicleta que serão necessários para tirar as
+              fotos(quadro, soldas e etc). Após o envio das fotos, será enviado
+              para nossa aplicação e validado pelo nosso banco de dados, para
+              possibilitar dar continuação ao processo do seguro..
+            </p>
+          </div>
         </div>
       </>
     )
