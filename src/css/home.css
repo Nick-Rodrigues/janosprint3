@@ -26,3 +26,16 @@
     font-weight: 400;
     line-height: normal;
   }
+  @media(max-width:768px){ .main-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+  }
+  }
+  @media(max-width:375px){ .main-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  }
