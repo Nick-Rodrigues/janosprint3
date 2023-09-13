@@ -1,3 +1,10 @@
+@import url("reset.css");
+@import url("cabecalho.css");
+@import url("integrantes.css");
+@import url("footer.css");
+@import url("home.css");
+@import url("etapas.css");
+
 * {
   margin: 0;
   padding: 0;
