@@ -1,0 +1,28 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 135px;
+    margin: 119px auto;
+    max-width: 1210px;
+  }
+  
+  .main-div div .titulo-janos {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .main-div div .texto-janos {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
