@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    justify-content: space-around;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 29%;
+    margin: -2% 16% 0 0;
+    align-items: center;
+  }
+  
+  header .logo {
+    width: 108px;
+    height: 108px;
+    flex-shrink: 0;
+    margin: 2% 0% 0 5%;
+  }
+  
+  header nav .home {
+    width: 97px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #000;
+  }
+  header nav .etapas {
+    width: 108px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #000;
+  }
+  header nav .integrantes {
+    width: 159px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #000;
+  }
+  
+  header p {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 4px 0 5px 0;
+  }
+  
+  @media(max-width:768px){ header {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  }
+  
+  
+  @media(max-width:375px){ header nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  }
+  
+  
