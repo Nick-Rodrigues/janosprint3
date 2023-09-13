@@ -6,10 +6,11 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2%;
-  margin: 20px auto;
+  margin: 20px auto 0;
   min-height: 160px;
   padding: 20px 0 0 18%;
   align-items: center;
+  height: 320px;
 }
 
 footer .instag {
@@ -46,14 +47,16 @@ footer .git-hub {
   text-decoration-line: underline;
 }
 
-@media(max-width:768px){ footer {
-  display: flex;
-  justify-content: left;
-}
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: left;
+  }
 }
 
-@media(max-width:375px){ footer {
-  display: flex;
-  justify-content: left;
-}
+@media (max-width: 375px) {
+  footer {
+    display: flex;
+    justify-content: left;
+  }
 }
