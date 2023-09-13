@@ -1,5 +1,3 @@
-index na pasta Integrantes
-
 import nicolas from "../../img/omaisgato.jpg";
 import luis from "../../img/luis.jpg";
 import thiago from "../../img/thigaz.jpg";
