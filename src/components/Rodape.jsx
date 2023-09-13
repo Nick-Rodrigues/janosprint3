@@ -10,7 +10,7 @@ export default function Rodape() {
 
             <a
             className="git-hub"
-            href="https://github.com/Nick-Rodrigues/sprint-3-janos"
+            href="https://github.com/Nick-Rodrigues/janosprint3"
             target="_blank"
             rel="noreferrer"
             >
