@@ -46,13 +46,16 @@
     align-items: center;
     gap: 5%;
     margin: 8% auto;
+    flex-wrap: wrap;
 }
-
-@media(max-width:768px){ .integrantes-main {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  padding: 15px;
-  flex-direction: column;
+  
+ @media (max-width: 768px) {
+    .integrantes-main {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding: 15px;
+      flex-direction: column;
     }
 }
+  
